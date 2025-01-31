@@ -6,7 +6,7 @@ import requests
 import hashlib
 from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox, QVBoxLayout, QLabel, QPushButton
 from PyQt5.QtCore import QTimer
-cycle_of_min = 6
+cycle_of_min = 6　#巡回時間
 terget_url = ""　#ここに監視対象サイトのURLを入れてくださいね☆
 
 class WebsiteMonitor(QWidget):
