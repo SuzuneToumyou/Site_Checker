@@ -1,14 +1,20 @@
 # Site_Checker
 ## Overview
-This Python script monitors a specified website at set intervals (default is every 6 hours) and displays a popup notification if the website content has changed.
+This is a simple GUI software that checks a specified website every six hours and notifies you with a popup if there are any updates. Please enter the desired check interval and the target website in the appropriate fields.
 
 ## Features
-Automated monitoring: The script runs in the background and checks for updates every 6 hours.
-Popup notifications: Alerts you when a change is detected.
-Simple configuration: Just set the website URL and monitoring interval.
+- Checks the specified website for updates every six hours.
+- Notifies you with a popup if there are any updates.
 
-## Notes
-Ensure you have PyQt5 installed for the popup notifications to work.
-The script compares the website’s content over time. If the structure of the site changes frequently, consider refining the detection method.
-Requires an active internet connection to fetch updates.
-License
+## Configuration
+- **Check Interval**: Set the interval for checking the website (default is six hours).
+- **Target Website**: Enter the URL of the website you want to monitor.
+
+## Usage
+1. Download and install the software.
+2. Launch the application.
+3. Enter the check interval and the target website.
+4. The software will notify you with a popup if there are any updates on the specified website.
+
+## Note
+This software is intended for simple website monitoring and notification purposes
